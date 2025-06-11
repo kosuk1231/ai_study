@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정신건강복지센터 AI 도구 18가지 완전 가이드</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+        
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.7;
+            color: #2d3748;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .card-shadow {
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .tool-card {
+            transition: all 0.3s ease;
+        }
+        
+        .tool-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+        
+        .difficulty-star {
+            color: #fbbf24;
+        }
+        
+        .category-icon {
+            background: linear-gradient(45deg, #4ade80, #22d3ee);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        @media print {
+            body { margin: 0; padding: 0; }
+            .no-print { display: none; }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-12">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">
+                    <i class="fas fa-brain mr-4"></i>
+                    정신건강복지센터 AI 도구 18가지 완전 가이드
+                </h1>
+                <p class="text-xl opacity-90 max-w-3xl mx-auto">
+                    정신건강복지센터 업무 혁신을 위한 선별된 AI 도구들을 카테고리별로 상세히 소개합니다
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Overview -->
+    <section class="py-12 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">
+                <i class="fas fa-chart-pie mr-3 category-icon"></i>
+                카테고리별 분류 개요
+            </h2>
+            <div class="grid md:grid-cols-3 lg:grid-cols-6 gap-6">
+                <div class="bg-blue-50 p-6 rounded-lg text-center card-shadow">
+                    <i class="fas fa-edit text-3xl text-blue-600 mb-3"></i>
+                    <h3 class="font-semibold text-gray-800">텍스트 및 문서</h3>
+                    <p class="text-blue-600 font-bold text-2xl">5가지</p>
+                </div>
+                <div class="bg-green-50 p-6 rounded-lg text-center card-shadow">
+                    <i class="fas fa-palette text-3xl text-green-600 mb-3"></i>
+                    <h3 class="font-semibold text-gray-800">홍보물 제작</h3>
+                    <p class="text-green-600 font-bold text-2xl">5가지</p>
+                </div>
+                <div class="bg-purple-50 p-6 rounded-lg text-center card-shadow">
+                    <i class="fas fa-video text-3xl text-purple-600 mb-3"></i>
+                    <h3 class="font-semibold text-gray-800">영상 및 음원</h3>
+                    <p class="text-purple-600 font-bold text-2xl">5가지</p>
+                </div>
+                <div class="bg-indigo-50 p-6 rounded-lg text-center card-shadow">
+                    <i class="fas fa-presentation text-3xl text-indigo-600 mb-3"></i>
+                    <h3 class="font-semibold text-gray-800">PPT 제작</h3>
+                    <p class="text-indigo-600 font-bold text-2xl">2가지</p>
+                </div>
+                <div class="bg-orange-50 p-6 rounded-lg text-center card-shadow">
+                    <i class="fas fa-cogs text-3xl text-orange-600 mb-3"></i>
+                    <h3 class="font-semibold text-gray-800">업무 자동화</h3>
+                    <p class="text-orange-600 font-bold text-2xl">2가지</p>
+                </div>
+                <div class="bg-pink-50 p-6 rounded-lg text-center card-shadow">
+                    <i class="fas fa-mobile-alt text-3xl text-pink-600 mb-3"></i>
+                    <h3 class="font-semibold text-gray-800">앱 개발</h3>
+                    <p class="text-pink-600 font-bold text-2xl">1가지</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category 1: 텍스트 및 문서 작성 -->
+    <section class="py-12 bg-blue-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 text-gray-800 flex items-center">
+                <i class="fas fa-edit mr-4 text-blue-600"></i>
+                1. 텍스트 및 문서 작성 도구 (5가지)
+            </h2>
+            
+            <div class="space-y-8">
+                <!-- ChatGPT -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">ChatGPT</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">OpenAI</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료 / $20/월</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 다양한 형태의 텍스트 생성</li>
+                                <li>• 대화형 AI 어시스턴트</li>
+                                <li>• 번역 및 요약 기능</li>
+                                <li>• 창작 및 편집 지원</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 사용법이 간단하고 직관적</li>
+                                <li>• 한국어 지원 우수</li>
+                                <li>• 실시간 피드백 및 수정 가능</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 사례관리 보고서 초안 작성</li>
+                                <li>• 상담 시나리오 개발</li>
+                                <li>• 교육자료 텍스트 생성</li>
+                                <li>• 공문서 및 제안서 작성</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 개인정보 입력 금지</li>
+                                <li>• 전문적 내용은 검토 필수</li>
+                                <li>• 할루시네이션 가능성</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gemini -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">Gemini (구글)</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">Google</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료 / $20/월</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 대용량 문서 처리 (최대 1백만 토큰)</li>
+                                <li>• 멀티모달 입력 지원</li>
+                                <li>• 실시간 웹 검색 연동</li>
+                                <li>• 구글 워크스페이스 통합</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 긴 문서 처리 능력 탁월</li>
+                                <li>• 최신 정보 검색 연동</li>
+                                <li>• 한국어 처리 성능 우수</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 정책 문서 종합 분석</li>
+                                <li>• 여러 사례 동시 비교 분석</li>
+                                <li>• 연구논문 리뷰 및 요약</li>
+                                <li>• 데이터 기반 인사이트 도출</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 복잡한 기능으로 학습 곡선 존재</li>
+                                <li>• 대용량 처리 시 응답 시간 증가</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 구글 AI Studio -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">구글 AI Studio</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">Google</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료 (제한)</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 맞춤형 프롬프트 템플릿 제작</li>
+                                <li>• 다양한 AI 모델 테스트</li>
+                                <li>• API 연동 기능</li>
+                                <li>• 고급 프롬프트 엔지니어링</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 무료로 고급 기능 사용 가능</li>
+                                <li>• 프롬프트 최적화 도구 제공</li>
+                                <li>• 다양한 실험 환경 지원</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 센터 맞춤형 AI 어시스턴트 구축</li>
+                                <li>• 표준화된 문서 템플릿 개발</li>
+                                <li>• 반복 업무용 프롬프트 라이브러리</li>
+                                <li>• 전문 용어 특화 AI 모델 훈련</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 기술적 지식 필요</li>
+                                <li>• 초보자에게는 복잡할 수 있음</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 클로바노트 -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">클로바노트 (네이버)</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">네이버</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료 / 9,900원/월</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 실시간 음성→텍스트 변환</li>
+                                <li>• 화자 구분 및 타임스탬프</li>
+                                <li>• 자동 요약 및 키워드 추출</li>
+                                <li>• 다국어 지원</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 한국어 인식률 95% 이상</li>
+                                <li>• 실시간 처리 가능</li>
+                                <li>• 개인정보 자동 마스킹 기능</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 상담 내용 실시간 기록</li>
+                                <li>• 회의록 자동 생성</li>
+                                <li>• 교육 세미나 내용 정리</li>
+                                <li>• 전화 상담 기록 작성</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 녹음 시 반드시 동의 필요</li>
+                                <li>• 배경 소음에 민감</li>
+                                <li>• 전문 용어 인식률 한계</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 노트북LM -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">노트북LM (구글)</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">Google</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 개인 문서 기반 AI 어시스턴트</li>
+                                <li>• 문서 업로드 및 학습</li>
+                                <li>• 맞춤형 Q&A 생성</li>
+                                <li>• 출처 기반 답변 제공</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 업로드한 문서만 참조하여 정확성 높음</li>
+                                <li>• 출처 명시로 신뢰성 확보</li>
+                                <li>• 무료로 고급 기능 제공</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 센터 매뉴얼 기반 AI 상담원</li>
+                                <li>• 정책 문서 Q&A 시스템</li>
+                                <li>• 신입 직원 교육 도우미</li>
+                                <li>• 24시간 정보 검색 서비스</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 영어 문서 처리 성능이 더 우수</li>
+                                <li>• 문서 업로드 한도 존재</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category 2: 홍보물 제작 -->
+    <section class="py-12 bg-green-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 text-gray-800 flex items-center">
+                <i class="fas fa-palette mr-4 text-green-600"></i>
+                2. 홍보물 제작 도구 (5가지)
+            </h2>
+            
+            <div class="space-y-8">
+                <!-- Canva AI -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">Canva AI</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">Canva</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료 / $14.99/월</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• AI 기반 디자인 생성</li>
+                                <li>• 텍스트→이미지 변환</li>
+                                <li>• 브랜드 키트 관리</li>
+                                <li>• 다양한 포맷 자동 변환</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 직관적인 사용법</li>
+                                <li>• 풍부한 템플릿 제공</li>
+                                <li>• 팀 협업 기능</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 정신건강 캠페인 포스터</li>
+                                <li>• 교육자료 인포그래픽</li>
+                                <li>• SNS 홍보 콘텐츠</li>
+                                <li>• 센터 브랜딩 자료</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 무료 버전은 기능 제한</li>
+                                <li>• 상업적 이용 시 라이선스 확인</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 망고보드 -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">망고보드</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">망고보드</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료 / 9,900원/월</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 데이터 시각화 특화</li>
+                                <li>• 인포그래픽 자동 생성</li>
+                                <li>• 차트 및 그래프 제작</li>
+                                <li>• 프레젠테이션 모드</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 한국 서비스로 한글 최적화</li>
+                                <li>• 복잡한 데이터도 쉽게 시각화</li>
+                                <li>• 실시간 협업 가능</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 센터 운영 통계 시각화</li>
+                                <li>• 정신건강 교육 인포그래픽</li>
+                                <li>• 연간 성과 보고서 차트</li>
+                                <li>• 서비스 이용 현황 대시보드</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 디자인 자유도는 상대적으로 낮음</li>
+                                <li>• 대용량 데이터 처리 한계</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recraft AI -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">Recraft AI</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">Recraft</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료 / $20/월</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 벡터 이미지 생성</li>
+                                <li>• 일관된 스타일 유지</li>
+                                <li>• 브랜드 맞춤 일러스트</li>
+                                <li>• 상업적 이용 허가</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 고품질 벡터 이미지 생성</li>
+                                <li>• 브랜드 일관성 유지 용이</li>
+                                <li>• 무제한 크기 조정 가능</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 정신건강 교육 일러스트</li>
+                                <li>• 센터 마스코트 캐릭터</li>
+                                <li>• 상담 과정 설명 그림</li>
+                                <li>• 치료법 시각화 자료</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 영어 프롬프트가 더 정확</li>
+                                <li>• 복잡한 장면은 여러 번 시도 필요</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Napkin AI -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">Napkin AI</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">Napkin</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료 / $12/월</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 아이디어→시각화 자동 변환</li>
+                                <li>• 플로우차트 및 다이어그램</li>
+                                <li>• 개념 설명 그래픽</li>
+                                <li>• 프레젠테이션 통합</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 복잡한 개념을 간단히 시각화</li>
+                                <li>• 자동 레이아웃 최적화</li>
+                                <li>• 다양한 다이어그램 스타일</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 치료 과정 플로우차트</li>
+                                <li>• 조직도 및 연계망 시각화</li>
+                                <li>• 정신건강 개념 설명 다이어그램</li>
+                                <li>• 서비스 절차 안내도</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 영어 입력 시 더 정확</li>
+                                <li>• 세부 조정 기능 제한적</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Remove.bg -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">Remove.bg</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">Kaleido AI</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료 / $9.99/월</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 자동 배경 제거</li>
+                                <li>• AI 기반 객체 분리</li>
+                                <li>• 대량 처리 지원</li>
+                                <li>• API 연동 가능</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 원클릭 배경 제거</li>
+                                <li>• 높은 정확도</li>
+                                <li>• 빠른 처리 속도</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 직원 사진 프로필 제작</li>
+                                <li>• 홍보물 이미지 편집</li>
+                                <li>• 교육자료 삽화 정리</li>
+                                <li>• 웹사이트 이미지 최적화</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 복잡한 배경은 정확도 하락</li>
+                                <li>• 무료 버전은 해상도 제한</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category 3: 영상 및 음원 제작 -->
+    <section class="py-12 bg-purple-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 text-gray-800 flex items-center">
+                <i class="fas fa-video mr-4 text-purple-600"></i>
+                3. 영상 및 음원 제작 도구 (5가지)
+            </h2>
+            
+            <div class="space-y-8">
+                <!-- Veo2 -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">Veo2 (구글)</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">Google DeepMind</span>
+                                <span class="inline-block bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium">무료(제한) / 향후유료</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 텍스트→비디오 생성</li>
+                                <li>• 고해상도 영상 제작</li>
+                                <li>• 현실적인 인물 표현</li>
+                                <li>• 다양한 장르 지원</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 매우 현실적인 영상 생성</li>
+                                <li>• 긴 시퀀스 제작 가능</li>
+                                <li>• 전문적 품질</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 정신건강 캠페인 영상</li>
+                                <li>• 치료법 시연 영상</li>
+                                <li>• 센터 홍보 영상</li>
+                                <li>• 교육용 시나리오 영상</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 베타 서비스로 접근 제한</li>
+                                <li>• 생성 시간 오래 걸림</li>
+                                <li>• 윤리적 사용 가이드라인 준수</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sora -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">Sora (OpenAI)</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">OpenAI</span>
+                                <span class="inline-block bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium">미정(제한적접근)</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 고품질 영상 생성</li>
+                                <li>• 복잡한 물리법칙 구현</li>
+                                <li>• 다양한 카메라 앵글</li>
+                                <li>• 창의적 시나리오 표현</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 최고 수준의 영상 품질</li>
+                                <li>• 창의적 표현 가능</li>
+                                <li>• 다양한 스타일 지원</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 정신건강 교육 영상</li>
+                                <li>• 상담 기법 시연</li>
+                                <li>• 치료 환경 소개 영상</li>
+                                <li>• 심리적 은유 표현 영상</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 현재 일반 사용자 접근 제한</li>
+                                <li>• 높은 비용 예상</li>
+                                <li>• 윤리적 검토 필요</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vrew AI -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">Vrew AI</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">브이루(한국)</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료 / 20,000원/월</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 자동 자막 생성</li>
+                                <li>• AI 영상 편집</li>
+                                <li>• 음성 인식 및 편집</li>
+                                <li>• 다양한 효과 제공</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 한국어 자막 정확도 높음</li>
+                                <li>• 직관적인 인터페이스</li>
+                                <li>• 자동 편집 기능 우수</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 교육 영상 자막 추가</li>
+                                <li>• 상담 영상 편집</li>
+                                <li>• 홍보 영상 제작</li>
+                                <li>• 온라인 교육 콘텐츠</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 고급 편집 기능 제한</li>
+                                <li>• 대용량 파일 처리 시 속도 저하</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Suno AI -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">Suno AI</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">Suno</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료 / $10/월</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 텍스트→음악 생성</li>
+                                <li>• 다양한 장르 지원</li>
+                                <li>• 가사 포함 곡 제작</li>
+                                <li>• 고품질 오디오 출력</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 쉬운 음악 제작</li>
+                                <li>• 저작권 문제 없음</li>
+                                <li>• 다양한 스타일 지원</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 명상 및 이완 음악</li>
+                                <li>• 치료용 배경음악</li>
+                                <li>• 센터 테마 음악</li>
+                                <li>• 교육 영상 배경음악</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 한국어 가사 품질 제한</li>
+                                <li>• 클래식 음악은 상대적으로 약함</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ElevenLabs -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">ElevenLabs</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">ElevenLabs</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료(제한) / $5/월</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 고품질 음성 합성</li>
+                                <li>• 다국어 지원</li>
+                                <li>• 감정 표현 가능</li>
+                                <li>• 목소리 복제 기능</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 매우 자연스러운 음성</li>
+                                <li>• 다양한 목소리 선택</li>
+                                <li>• 감정 조절 가능</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 교육 영상 나레이션</li>
+                                <li>• 안내 방송 음성</li>
+                                <li>• 다국어 상담 안내</li>
+                                <li>• 명상 가이드 음성</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 한국어 품질은 영어 대비 낮음</li>
+                                <li>• 음성 복제 시 윤리 고려 필요</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category 4: PPT 및 인포그래픽 -->
+    <section class="py-12 bg-indigo-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 text-gray-800 flex items-center">
+                <i class="fas fa-presentation mr-4 text-indigo-600"></i>
+                4. PPT 및 인포그래픽 도구 (2가지)
+            </h2>
+            
+            <div class="space-y-8">
+                <!-- 감마 AI -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">감마 AI (Gamma)</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">Gamma</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료 / $10/월</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• AI 기반 PPT 자동 생성</li>
+                                <li>• 데이터 시각화 자동화</li>
+                                <li>• 브랜딩 자동 적용</li>
+                                <li>• 웹 프레젠테이션 지원</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 빠른 PPT 제작</li>
+                                <li>• 전문적인 디자인</li>
+                                <li>• 데이터 자동 시각화</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 연간 성과 보고서</li>
+                                <li>• 교육 프로그램 소개</li>
+                                <li>• 정책 브리핑 자료</li>
+                                <li>• 사업 계획 발표</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 한국어 템플릿 제한</li>
+                                <li>• 세부 커스터마이징 한계</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Canva AI (PPT 기능) -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">Canva AI (프레젠테이션 기능)</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">Canva</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료 / $14.99/월</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 브랜드 맞춤형 PPT 템플릿</li>
+                                <li>• AI 기반 슬라이드 생성</li>
+                                <li>• 풍부한 디자인 에셋</li>
+                                <li>• 팀 협업 기능</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 직관적인 디자인 인터페이스</li>
+                                <li>• 브랜드 일관성 유지</li>
+                                <li>• 다양한 애니메이션 효과</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 센터 소개 프레젠테이션</li>
+                                <li>• 교육 프로그램 안내</li>
+                                <li>• 상담 기법 설명 자료</li>
+                                <li>• 정신건강 인식 개선 발표</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 무료 버전 기능 제한</li>
+                                <li>• 복잡한 데이터 시각화는 제한적</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category 5: 업무 자동화 -->
+    <section class="py-12 bg-orange-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 text-gray-800 flex items-center">
+                <i class="fas fa-cogs mr-4 text-orange-600"></i>
+                5. 업무 자동화 도구 (2가지)
+            </h2>
+            
+            <div class="space-y-8">
+                <!-- Make AI -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">Make AI (구 Integromat)</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">Make</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료 / $9/월</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 워크플로우 자동화</li>
+                                <li>• 다양한 앱 연동</li>
+                                <li>• 조건부 분기 처리</li>
+                                <li>• 실시간 모니터링</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 강력한 자동화 기능</li>
+                                <li>• 다양한 서비스 연동</li>
+                                <li>• 시각적 워크플로우 설계</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 상담 예약 자동 관리</li>
+                                <li>• 보고서 자동 생성</li>
+                                <li>• 알림 시스템 구축</li>
+                                <li>• 데이터 동기화</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 학습 곡선 가파름</li>
+                                <li>• 복잡한 설정 필요</li>
+                                <li>• 오류 발생 시 디버깅 어려움</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 구글 앱스크립트 -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">구글 앱스크립트</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">Google</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 구글 워크스페이스 자동화</li>
+                                <li>• 맞춤형 함수 제작</li>
+                                <li>• 웹앱 개발</li>
+                                <li>• API 연동</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 완전 무료</li>
+                                <li>• 구글 서비스와 완벽 연동</li>
+                                <li>• 높은 커스터마이징 가능</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 월간 통계 자동 생성</li>
+                                <li>• 예약 시스템 구축</li>
+                                <li>• 이메일 자동 발송</li>
+                                <li>• 데이터 백업 시스템</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 프로그래밍 지식 필수</li>
+                                <li>• 초보자에게 매우 어려움</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category 6: 앱 개발 -->
+    <section class="py-12 bg-pink-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 text-gray-800 flex items-center">
+                <i class="fas fa-mobile-alt mr-4 text-pink-600"></i>
+                6. 앱 개발 도구 (1가지)
+            </h2>
+            
+            <div class="space-y-8">
+                <!-- 바이브코딩 -->
+                <div class="bg-white p-8 rounded-lg card-shadow tool-card">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-800">바이브코딩</h3>
+                        <div class="text-right">
+                            <div class="text-sm text-gray-600">난이도</div>
+                            <div class="difficulty-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <span class="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm font-medium mr-2">바이브컴퍼니(한국)</span>
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">무료 / 30,000원/월</span>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-blue-600">주요 기능</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 노코드 앱 개발</li>
+                                <li>• 드래그 앤 드롭 인터페이스</li>
+                                <li>• 데이터베이스 자동 구축</li>
+                                <li>• 모바일/웹 동시 지원</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-green-600">장점</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 코딩 지식 불필요</li>
+                                <li>• 한국어 완벽 지원</li>
+                                <li>• 빠른 프로토타이핑</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2 text-purple-600">정신건강 분야 활용</h4>
+                            <ul class="text-sm space-y-1 mb-4">
+                                <li>• 자가진단 앱 (PHQ-9, GAD-7)</li>
+                                <li>• 상담 예약 시스템</li>
+                                <li>• 감정 기록 앱</li>
+                                <li>• 위기상황 신고 앱</li>
+                            </ul>
+                            <h4 class="font-semibold mb-2 text-red-600">주의사항</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>• 복잡한 기능 구현 제한</li>
+                                <li>• 디자인 자유도 상대적으로 낮음</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Summary Section -->
+    <section class="py-12 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 text-center text-gray-800">
+                <i class="fas fa-chart-bar mr-3 category-icon"></i>
+                도구별 비교 분석
+            </h2>
+            
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <div class="bg-white p-6 rounded-lg card-shadow">
+                    <h3 class="text-xl font-bold mb-4 text-blue-600">실무 적용 우선순위</h3>
+                    <div class="space-y-3">
+                        <div>
+                            <h4 class="font-semibold text-green-600">즉시 활용 가능 (초급)</h4>
+                            <p class="text-sm text-gray-600">ChatGPT, Canva AI, 클로바노트</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-yellow-600">단기 학습 후 활용 (중급)</h4>
+                            <p class="text-sm text-gray-600">Gemini, 망고보드, Vrew AI</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-red-600">장기 학습 필요 (고급)</h4>
+                            <p class="text-sm text-gray-600">Make AI, 구글 앱스크립트, 바이브코딩</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg card-shadow">
+                    <h3 class="text-xl font-bold mb-4 text-green-600">비용 효율성 분석</h3>
+                    <div class="space-y-3">
+                        <div>
+                            <h4 class="font-semibold text-green-600">무료로 시작 가능</h4>
+                            <p class="text-sm text-gray-600">ChatGPT, Gemini, 노트북LM, Remove.bg</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-blue-600">저렴한 월 구독</h4>
+                            <p class="text-sm text-gray-600">Suno AI ($10), 감마 AI ($10)</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-purple-600">중간 가격대</h4>
+                            <p class="text-sm text-gray-600">Canva AI ($15), Recraft AI ($20)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg card-shadow">
+                    <h3 class="text-xl font-bold mb-4 text-purple-600">학습 난이도별 분류</h3>
+                    <div class="space-y-3">
+                        <div>
+                            <h4 class="font-semibold text-green-600">초급 (⭐⭐☆☆☆)</h4>
+                            <p class="text-sm text-gray-600">ChatGPT, 클로바노트, Canva AI, Vrew AI, 감마 AI</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-yellow-600">중급 (⭐⭐⭐☆☆)</h4>
+                            <p class="text-sm text-gray-600">Gemini, 망고보드, Recraft AI, Veo2, 바이브코딩</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-red-600">고급 (⭐⭐⭐⭐☆)</h4>
+                            <p class="text-sm text-gray-600">구글 AI Studio, Make AI, 구글 앱스크립트</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 종합 주의사항 -->
+            <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
+                <h3 class="text-xl font-bold mb-4 text-red-600 flex items-center">
+                    <i class="fas fa-exclamation-triangle mr-3"></i>
+                    종합 주의사항
+                </h3>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div>
+                        <h4 class="font-semibold mb-2 text-red-600">개인정보보호</h4>
+                        <ul class="text-sm space-y-1">
+                            <li>• 모든 도구 사용 시 개인정보 입력 금지</li>
+                            <li>• 내담자 정보는 반드시 익명화 처리</li>
+                            <li>• 가능한 한 로컬 환경에서 작업</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold mb-2 text-red-600">윤리적 고려사항</h4>
+                        <ul class="text-sm space-y-1">
+                            <li>• AI 생성 콘텐츠임을 명시</li>
+                            <li>• 전문가 검토 후 사용</li>
+                            <li>• 저작권 및 라이선스 확인</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold mb-2 text-red-600">품질 관리</h4>
+                        <ul class="text-sm space-y-1">
+                            <li>• AI 결과물은 반드시 검토 후 사용</li>
+                            <li>• 할루시네이션 가능성 항상 염두</li>
+                            <li>• 정기적인 업데이트 및 재학습 필요</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h3 class="text-xl font-bold mb-4">정신건강복지센터 AI 도구 18가지 완전 가이드</h3>
+            <p class="text-gray-300 mb-4">
+                이 가이드를 참고하여 각 센터의 상황에 맞는 도구를 선택하고 단계적으로 도입하시기 바랍니다.
+            </p>
+            <div class="flex justify-center space-x-6 text-sm text-gray-400">
+                <span>• 개인정보보호 철저 준수</span>
+                <span>• 전문가 검토 후 활용</span>
+                <span>• 지속적인 학습과 개선</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
